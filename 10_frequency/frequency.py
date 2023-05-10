@@ -25,11 +25,11 @@ while True:
         lst.append(int(num))
         print(lst)
 
-search_term = int(input("Enter the number to find frequency of: "))
-freq = frequency(lst, search_term)
-print(f"The frequency of {search_term} in the list is: {freq}")
+    search_term = int(input("Enter the number to find frequency of: "))
+    freq = frequency(lst, search_term)
+    print(f"The frequency of {search_term} in the list is: {freq}")
 
- # Ask the user if they want to continue
+# Ask the user if they want to continue
 choice = input("Do you want to continue? (y/n): ")
 if choice.lower() == 'n':
     break

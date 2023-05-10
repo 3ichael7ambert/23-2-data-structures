@@ -44,7 +44,7 @@ while True:
     result = weekday_name(a)
 
     # Print the result
-    print(f"The product is: {result}")
+    print(f"The day is: {result}")
 
     # Ask the user if they want to continue
     choice = input("Do you want to continue? (y/n): ")
