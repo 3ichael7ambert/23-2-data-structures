@@ -24,9 +24,9 @@ while True:
     else:
         lst.append(int(num))
         print(lst)
-
+    lstInput = int(input("Enter a list: "))###
     search_term = int(input("Enter the number to find frequency of: "))
-    freq = frequency(lst, search_term)
+    freq = frequency(lstInput, search_term)###
     print(f"The frequency of {search_term} in the list is: {freq}")
 
 # Ask the user if they want to continue
